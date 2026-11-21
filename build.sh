@@ -1,0 +1,1 @@
+cargo clean && cargo build --release && echo "[OK] Build completed successfully." || echo "[ERROR] Build failed."

@@ -1,0 +1,17 @@
+Minish
+
+A minimal command-line shell written in Rust for Rinux.
+
+Features
+---
+
+- Interactive prompt displaying the current working directory.
+- Built-in support for `cd` and `exit`.
+- Executes external command utilities found in `/usr/bin` (as well as relative `./` and absolute `/` paths).
+
+Building
+---
+
+To compile the project, run the build script:
+
+    bash /build.sh
