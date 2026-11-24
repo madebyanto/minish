@@ -3,4 +3,14 @@ name = "minish"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "sh"
+path = "src/main.rs"
+
 [dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

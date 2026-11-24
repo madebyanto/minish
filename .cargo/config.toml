@@ -1,0 +1,7 @@
+[build]
+target = "x86_64-rinux.json"
+
+# Needed to use a `.json` target spec and to build `core` without the Rust std source tree.
+[unstable]
+json-target-spec = true
+build-std = ["core"]
